@@ -2,7 +2,10 @@ package pl.sdajava25cloud.randomizingmachine;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
+@EnableConfigurationProperties
+//@EnableDiscoveryClient
 @SpringBootApplication
 public class RandomizingMachineApplication {
 
